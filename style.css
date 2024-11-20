@@ -113,7 +113,7 @@ header {
     margin: 0;
     line-height: 1.4;
   }
-  
+
   .instruction-step img {
     width: 100%;
     max-width: 300px;
@@ -160,3 +160,12 @@ header {
       padding: 8px 16px;
       font-size: 14px;
     }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+    .ingredient img {
+      width: 80px; /* Mindre storlek för mindre skärmar */
+    }
+  }
