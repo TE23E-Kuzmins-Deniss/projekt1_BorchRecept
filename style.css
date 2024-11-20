@@ -72,3 +72,44 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     flex-grow: 1;
   }
+  main p, main h2 {
+    color: #333;
+  }
+
+  .ingredients,
+  .instructions {
+    flex: 1 1 calc(50% - 40px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    color: #333;
+  }
+
+  .ingredients h2,
+  .instructions h2 {
+    font-size: 1.8rem;
+    color: #d32f2f;
+  }
+
+  .ingredient {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .ingredient img {
+    width: 100px; /* Anpassa storlek efter behov */
+    height: auto;
+    margin-right: 15px; /* Utrymme mellan bild och text */
+  }
+
+  .ingredient h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #d32f2f;
+  }
+
+  .ingredient p {
+    margin: 0;
+    line-height: 1.4;
+  }
