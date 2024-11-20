@@ -32,16 +32,10 @@ body {
     height: auto;
     z-index: 10; /* Se till att bilden är ovanpå andra element */
 }
-
-header {
-    position: relative;
-    padding: 20px;
-    background-color: #f1f1f1;
-}
-
-header .header-content h1 {
+header .header content h1 {
     margin: 0;
 }
+
 
 /* Topp header */
 header {
@@ -52,6 +46,9 @@ header {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 100%;
+    position: relative;
+    padding: 20px;
+    background-color: #f1f1f1;
   }
   header h1 {
     font-size: 2.5rem;
