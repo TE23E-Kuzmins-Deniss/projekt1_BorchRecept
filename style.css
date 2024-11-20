@@ -113,3 +113,50 @@ header {
     margin: 0;
     line-height: 1.4;
   }
+  
+  .instruction-step img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #f4ada8;
+    color: #000000;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+  }
+
+  /* Länkar */
+  a {
+    color: #3a2221;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  @media (max-width: 768px) {
+    main {
+      flex-direction: column;
+      padding: 10px;
+    }
+
+    .ingredients,
+    .instructions {
+      flex: 1 1 100%;
+      margin-bottom: 20px;
+    }
+
+    nav button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
