@@ -1,3 +1,27 @@
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(
+      to bottom,
+      #ffffff 33%,
+      #0000ff 33%,
+      #0000ff 66%,
+      #d52b1e 66%
+    );
+    color: #333;
+    line-height: 1.6;
+    background-size: 100% 300%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+  }
 /* Topp header */
 header {
     background: url("images/borsjtj.jpg") no-repeat center center;
