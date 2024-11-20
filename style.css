@@ -22,9 +22,30 @@ body {
     width: 100%;
     overflow-x: hidden;
   }
+
+/* CSS för att placera emblemet i det högra hörnet och göra det större */
+.emblem {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    width: 150px; /* Justera till den storlek du vill ha för emblemet */
+    height: auto;
+    z-index: 10; /* Se till att bilden är ovanpå andra element */
+}
+
+header {
+    position: relative;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+header .header-content h1 {
+    margin: 0;
+}
+
 /* Topp header */
 header {
-    background: url("images/borsjtj.jpg") no-repeat center center;
+    background: url("img/borsjtj.jpg") no-repeat center center;
     background-size: cover;
     color: #fff;
     padding: 20px;
